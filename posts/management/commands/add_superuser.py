@@ -2,7 +2,7 @@
 import os
 from django.core.management.base import BaseCommand
 
-from posts.models import User # Change this to reflect your app's name and name of your custom User model
+#from posts.models import User # Change this to reflect your app's name and name of your custom User model
 from blog import settings # Change this to reflect your app's name
 
 
