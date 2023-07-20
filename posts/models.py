@@ -21,7 +21,7 @@ class Post(models.Model):
 class Comment(models.Model):
     post = models.ForeignKey(to=Post, on_delete=models.CASCADE, null=True, )
     text = models.TextField(null=True)
-    title = models.CharField(max_length=200, null=True)
+    # title = models.CharField(max_length=200, null=True)
 
     def __str__(self):
         return self.title
